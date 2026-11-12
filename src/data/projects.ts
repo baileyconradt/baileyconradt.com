@@ -114,6 +114,17 @@ export const projects: Project[] = [
 
   // ---- Web apps (GitHub) ----------------------------------------------
   {
+    title: "Was It Sunny?",
+    category: "Web App",
+    blurb:
+      "How was the weather this week, years ago? Pick any place, date, or holiday to see up to 50 years of NOAA station records compared with normal—plus white Christmases, El Niño years, and the big storms.",
+    tags: ["React", "Vite", "Weather Data"],
+    image: "/images/projects/was-it-sunny.jpg",
+    demoUrl: "https://wasitsunny.com",
+    featured: true,
+    gradient: ["#5e9fd8", "#ffc85c"],
+  },
+  {
     title: "GeoQuiz",
     category: "Web App",
     blurb:
